@@ -170,7 +170,7 @@ class Item extends BaseItem
     /**
      * @param array $topics
      */
-    public function setTopics(?array $topics = null)
+    public function setTopics()
     {
         $this->topics = $topics;
     } 
