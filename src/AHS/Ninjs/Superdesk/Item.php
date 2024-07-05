@@ -53,6 +53,8 @@ class Item extends BaseItem
      */
     protected $keywords = [];
 
+    protected $topics = [];
+
     /**
      * {@inheritdoc}
      */
@@ -164,6 +166,15 @@ class Item extends BaseItem
     {
         $this->authors = $authors;
     }
+
+    /**
+     * @param array $topics
+     */
+    public function setTopics(?array $topics = null)
+    {
+        $this->topics = $topics;
+    } 
+
 
     /**
      * @return Extra|null
