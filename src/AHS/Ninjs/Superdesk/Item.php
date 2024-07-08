@@ -167,13 +167,13 @@ class Item extends BaseItem
         $this->authors = $authors;
     }
 
-    /**
-     * @param array $topics
-     */
-    public function setTopics()
-    {
-        $this->topics = $topics;
-    } 
+    // /**
+    //  * @param array $topics
+    //  */
+    // public function setTopics()
+    // {
+    //     $this->topics = $topics;
+    // } 
 
 
     /**
